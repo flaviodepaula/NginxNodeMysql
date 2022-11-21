@@ -1,0 +1,25 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Nginx + NodeJs + MySql",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "nginx",
+    "docker",
+    "wait-for",
+    "mysql"
+  ],
+  "author": "Flávio Gabriel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.20",
+    "npm": "^8.19.2"
+  }
+}
