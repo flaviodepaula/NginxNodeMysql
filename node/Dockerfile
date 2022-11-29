@@ -1,4 +1,4 @@
-FROM node:15 as builder
+FROM node:18 as builder
 
 WORKDIR /usr/src/app
 
@@ -9,6 +9,6 @@ RUN apt update && \
 
 COPY . . 
 
-USER node
+RUN npm install
 
 EXPOSE 3000
